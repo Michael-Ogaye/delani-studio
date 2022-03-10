@@ -9,3 +9,11 @@ body{
     height: 100vh;
     min-height: 100vh;
 }
+#services{
+    background-image: url('assets/backgrounds/s_image.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position: center;
+    
+}
