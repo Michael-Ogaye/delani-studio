@@ -1,3 +1,11 @@
 #first{
     background-image: url('assets/backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+body{
+    height: 100vh;
+    min-height: 100vh;
 }
