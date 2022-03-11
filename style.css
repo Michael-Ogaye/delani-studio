@@ -73,7 +73,7 @@ body{
     }
 
     #proc img{
-        width: 50%;
+        width: 25%;
     }
 
     .panels li div{
@@ -81,7 +81,7 @@ body{
         background-repeat: no-repeat;
         background-position: center;
     }
-    #proc div p{
+    #proc div p.card-text{
         display: none;
     }
 

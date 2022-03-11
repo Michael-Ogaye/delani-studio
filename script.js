@@ -1,11 +1,11 @@
-$(window).load(function(){
-    let icos= $('#proc img');
-    icos.each(function(){
-        $(this).click(function(){
-            $('Proc div p.card-text').slideToggle(500)
-        })
-    })
+$(document).ready(function(){
+    let icos= $('.card');
+    icos.click(function(){
+        // $('.card p.card-text').slideToggle(500);
+
+        $(this).find('p.card-text').slideToggle(500)
         
+    })
 
 
 
