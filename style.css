@@ -71,3 +71,16 @@ body{
     footer a img{
         width: 2vw;
     }
+
+    #proc img{
+        width: 25%;
+    }
+
+
+
+
+    /* media queries */
+
+    @media screen and (max-width:1000px){
+        
+    }
