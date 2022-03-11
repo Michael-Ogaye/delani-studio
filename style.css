@@ -82,5 +82,17 @@ body{
     /* media queries */
 
     @media screen and (max-width:1000px){
-        
+        .fall{
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        #proc img{
+            width: 50%;
+            margin: 0 auto;
+        }
+
     }
