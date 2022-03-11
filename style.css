@@ -17,3 +17,33 @@ body{
     background-position: center;
     
 }
+
+.panels li{
+    width: 20%;
+    
+    position: relative;
+    margin: 0;
+    display: block;
+    float: left;
+
+}
+.panels li div{
+    width: 100%;
+    /* color: white; */
+    padding: 50% 0;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+.panels{
+    margin: 0 auto;
+    width: 80%;
+}
+.top{
+    position: absolute;
+    }
+
+   .panels li{
+        margin: 1.5vw;
+    }
