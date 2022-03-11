@@ -76,6 +76,12 @@ body{
         width: 25%;
     }
 
+    .panels li div{
+        background-size:cover ;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
 
 
 
@@ -94,5 +100,34 @@ body{
             width: 50%;
             margin: 0 auto;
         }
+        .panels{
+            width: 100%;
+        }
+        .panels li{
+            width: 40%;
+            margin: 0 auto;
+            margin: 3vw;
+        }
 
+        #now{
+flex-direction: column;
+width: 100%;
+
+        }
+
+        #now input{
+            width: 100%;
+            margin: 0 auto;
+            margin: 0;
+        }
+
+    }
+
+    @media screen and (max-width:478px){
+
+        .panels li{
+            width: 80%;
+            margin: 0 auto;
+            margin: 3vw;
+        }
     }
