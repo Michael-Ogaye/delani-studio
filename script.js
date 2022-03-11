@@ -3,7 +3,7 @@ $(document).ready(function(){
     icos.click(function(){
         // $('.card p.card-text').slideToggle(500);
 
-        $(this).find('p.card-text').slideToggle(500)
+        $(this).find('p.card-text').slideToggle(500) 
         
     })
 
