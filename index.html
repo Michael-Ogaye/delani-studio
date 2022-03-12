@@ -10,6 +10,8 @@
 
     <!-- These are script links -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+        
+       <script src="assets/users.js"></script>
 
     <script src="script.js"></script>
 
@@ -103,7 +105,7 @@
  
  <li>
  <div class="top" style="background-image: url('assets/portfolio/work3.jpg');"> </div>
- <div class="bot" style="background-image: url('assets/portfolio/work3.jpg');"><p>MIGHTY-WERNER</p></div>
+ <div class="bot red" style="background-image: url('assets/portfolio/work3.jpg');"><p>MIGHTY-WERNER</p></div>
  </li>
  
  <li>
@@ -113,7 +115,7 @@
  
  <li>
  <div class="top" style="background-image: url('assets/portfolio/work1.jpg');"></div>
- <div class="bot" style="background-image: url('assets/portfolio/work1.jpg');"><p>JIM-CARREY</p></div>
+ <div class="bot red" style="background-image: url('assets/portfolio/work1.jpg');"><p>JIM-CARREY</p></div>
  </li>
 
 
@@ -122,14 +124,14 @@
   <div class="top" style="background-image: url('assets/portfolio/work5.jpg'); background-repeat: no-repeat;background-size: cover;">
     
   </div>
-  <div class="bot" style="background-image: url('assets/portfolio/work5.jpg'); background-repeat: no-repeat; background-size: cover;">
+  <div class="bot red" style="background-image: url('assets/portfolio/work5.jpg'); background-repeat: no-repeat; background-size: cover;">
     <p>ELENA-HUE</p>
   </div>
   </li>
   
   <li>
   <div class="top" style="background-image: url('assets/portfolio/work6.jpg');"> </div>
-  <div class="bot" style="background-image: url('assets/portfolio/work6.jpg');"><p>GAME-NIGH</p></div>
+  <div class="bot red" style="background-image: url('assets/portfolio/work6.jpg');"><p>GAME-NIGH</p></div>
   </li>
   
   <li>
@@ -148,7 +150,7 @@
     </section>
 
 
-    <section class="container-fluid d-flex flex-column mx-auto p-5 align-items-center justify-content-center mt-5 text-light" id="contacta">
+    <form class="container-fluid d-flex flex-column mx-auto p-5 align-items-center justify-content-center mt-5 text-light" id="contacta">
       <h5 class="text-center text-uppercase">Contact us</h5>
       <div class="form-group d-flex   " id="now">
         <input type="text" class="form-control mb-4 mt-4 me-3 fs-6 text-light" placeholder="Name...">
@@ -159,9 +161,13 @@
         <textarea class="form-control text-light fs-6"  id="floatingTextarea" cols="100" rows="50" ></textarea>
         <label for="floatingTextarea" class="fs-6">Your message here ...</label>
       </div>
+      <div>
+        <button type="submit" class="btn btn-primary mt-5" id="liveAlertBtn" >Submit</button>
+      </div>
 
 
-    </section>
+    </form>
+    <div class="w-50 mx-auto mt-5 text-center" id="liveAlertPlaceholder"></div>
 
     
 

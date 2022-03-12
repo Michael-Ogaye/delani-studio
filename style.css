@@ -44,14 +44,17 @@ body{
 .top{ 
      position: absolute; 
     } 
-     
+     .bot{
+    
+         
+     }
 
     .bot p{
+        
     
         border: 2px solid white;
         margin: 0 auto;
         font-size: 1rem;
-
         color: white;
 
 
@@ -104,6 +107,15 @@ body{
         text-align: center;
     }
 
+    
+
+    .red p{
+        color: red;
+        border: 2px solid red;
+        opacity: 1;
+        
+    }
+    
 
 
 
