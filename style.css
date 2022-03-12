@@ -109,6 +109,24 @@ body{
 
     /* media queries */
 
+    @media screen and (max-width:1150px){
+
+        #proc img{
+            width: 50%;
+            margin: 0 auto;
+        }
+        .panels{
+            width: 100%;
+        }
+        .panels li{
+            width: 40%;
+            margin: 0 auto;
+            margin: 3vw;
+        }
+
+
+    }
+
     @media screen and (max-width:1000px){
         .fall{
             flex-direction: column;
@@ -122,19 +140,6 @@ body{
             width: 100%;
             margin: 0 auto;
             text-align: center;
-        }
-
-        #proc img{
-            width: 50%;
-            margin: 0 auto;
-        }
-        .panels{
-            width: 100%;
-        }
-        .panels li{
-            width: 40%;
-            margin: 0 auto;
-            margin: 3vw;
         }
 
         #now{
